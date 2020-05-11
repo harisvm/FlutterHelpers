@@ -1,0 +1,24 @@
+Flutter Widgets
+
+
+1 - Scaffold Widget
+
+  A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. It provides APIs for showing drawers, snack bars and bottom sheets. Have a look at its constructor and the properties it has.Mar 4, 2019
+
+
+2 - Safe Area 
+
+Flutter’s SafeArea widget keeps pesky notification bars and phone notches from encroaching on your app's UI. It uses a MediaQuery to check the dimensions of the screen and pads its child Widget to match, making sure your app is safe on both iOS and Android! 
+
+
+3 - Expanded
+
+Flutter’s Expanded changes the constraints sent to children of rows and columns, instructing them to fill the available space. So wrap your child in an Expanded widget and watch it grow!
+
+4 - Wrap
+
+When you run out of room in your rows and columns, try Wrap instead! The Wrap widget lays out its children like a row or column, but when it runs out of room, it wraps to the next line. Direction, alignment, and spacing properties can help you get the exact look you need. 
+
+5 - Animated Container
+
+You can code up animated changes yourself with explicit animations, or you can let Flutter animate them for you! With the AnimatedContainer widget, you just build it once with a particular attribute (like color), and then rebuild it with a different value. Flutter will automatically animate the change between the two! Plus you can specify the animation length and curve for a custom look. 
